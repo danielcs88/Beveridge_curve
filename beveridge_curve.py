@@ -1,6 +1,9 @@
 # %% [markdown]
 # # Beveridge Curve
 
+# %% [markdown]
+# The Beveridge curve, or UV curve, is a graphical representation of the relationship between unemployment and the job vacancy rate, the number of unfilled jobs expressed as a proportion of the labor force.
+
 # %%
 import altair as alt
 import datapane as dp
