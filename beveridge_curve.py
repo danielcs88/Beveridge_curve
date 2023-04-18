@@ -83,14 +83,20 @@ plot & bar_slider
 current_year = pd.Timestamp.today().year
 
 # %%
-dp.Blocks(
-    "# Beveridge Curve",
-    dp.Formula(
-        r"\text{Beveridge Factor} = \frac{\text{Job Openings Rate}}{\text{Unemployment Rate}}"
-    ),
-    dp.Plot(plot & bar_slider),
-    f"## Current Year",
-    dp.Table(bv.loc[f"{current_year}"]),
+view = dp.View(
+    dp.Blocks(
+        "# Beveridge Curve",
+        dp.Formula(
+            r"\text{Beveridge Factor} = \frac{\text{Job Openings Rate}}{\text{Unemployment Rate}}"
+        ),
+        dp.Plot(plot & bar_slider),
+        "## Current Year",
+        dp.Table(bv.loc[f"{current_year}"]),
+    )
 )
 
 # %%
+view
+
+# %%
+dp.upload_report(view, name="Beveridge Curve")

@@ -10,6 +10,7 @@ backcall==0.2.0
 backoff==1.11.1
 backports.functools-lru-cache==1.6.4
 beautifulsoup4==4.12.2
+black==23.3.0
 bleach==6.0.0
 boltons==21.0.0
 brotlipy==0.7.0
@@ -79,6 +80,7 @@ monotonic==1.5
 more-itertools==9.1.0
 multimethod==1.9.1
 munkres==1.1.4
+mypy-extensions==1.0.0
 nb-conda-kernels==2.3.1
 nbclassic==0.5.5
 nbclient==0.7.3
@@ -95,6 +97,7 @@ pandas==1.5.3
 pandas-datareader==0.10.0
 pandocfilters==1.5.0
 parso==0.8.3
+pathspec==0.11.1
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.5.0
@@ -136,6 +139,7 @@ tabulate==0.9.0
 tenacity==8.2.2
 terminado==0.17.1
 tinycss2==1.2.1
+tokenize-rt==5.0.0
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
